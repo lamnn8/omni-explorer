@@ -73,7 +73,7 @@ jobs:
             DISABLE_BRIDGE_MARKET_CAP_UPDATER=false
             CACHE_BRIDGE_MARKET_CAP_UPDATE_INTERVAL=
             SOCKET_ROOT=
-
+          tags: lamnn/omni-explorer
   deploy_and_tests:
     needs: push_to_registry
     uses: blockscout/blockscout-ci-cd/.github/workflows/e2e_new.yaml@master
