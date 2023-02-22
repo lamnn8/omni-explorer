@@ -3,7 +3,7 @@ name: Publish Docker image on every push to master branch
 on:
   push:
     branches:
-      - master
+      - main
 env:
   OTP_VERSION: '24.3.4.1'
   ELIXIR_VERSION: '1.13.4'
